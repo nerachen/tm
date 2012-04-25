@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UserloginActivity!</string>
+    <string name="app_name">Userlogin</string>
+    <string name="user_name">user name</string>
+    <string name="user_password">password</string>
+    <string name="login">Login</string>
+    <string name="skip">skip</string>
+    <string name="progress_login">Login ...</string>
+	<string name="btn_login">Login</string>
+	<string name="btn_skip">Skip</string>
+	<string name="btn_logoff">Log Off</string>
+	<string name="btn_exit">Exit</string>
+	<string name="btn_cancel">Cancel</string>
+	<string name="txt_login_wait">Please Wait ...</string>
+	<string name="txt_logoff_wait">Please Wait ...</string>
+	<string name="txt_login_err_network">Network Error.</string>
+	<string name="txt_login_err_usrinfo">Invalid User Information.</string>
+	<string name="txt_login_done">Login OK.</string>
+</resources>

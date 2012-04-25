@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" 
+    android:gravity="center">
+	  
+        <LinearLayout 
+        		android:layout_width="wrap_content"
+        		android:layout_height="fill_parent"
+        		android:orientation ="vertical"
+        		android:layout_marginRight = "15px"  
+        		android:gravity="center">  
+        		
+        		<LinearLayout 
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:orientation ="horizontal"
+        			android:layout_weight = "1"
+        			android:gravity="center">  
+        		   	 	<com.yfvesh.tm.weatherrep.WeatherCtrlL
+            					android:layout_width="wrap_content"
+            					android:layout_height="wrap_content" 
+            					android:id="@+id/weatherCtrlLLayout1"
+            					
+           			 	 /> 
+           		</LinearLayout> 
+           		
+           		<LinearLayout 
+        			android:layout_width="fill_parent"
+        			android:layout_height="wrap_content"
+        			android:orientation ="horizontal"
+        			android:layout_weight = "1"
+        			android:gravity="center">  
+        		   	 	<com.yfvesh.tm.weatherrep.WeatherTipsCtrl
+            				android:id="@+id/weatherTipsCtrlLayout1"
+            				android:layout_width="wrap_content"
+            				android:layout_height="wrap_content" 
+            				android.clickable = "true"
+            				android:layout_marginRight="5px"
+            				
+           				/> 
+           				
+           				<com.yfvesh.tm.weatherrep.WeatherTipsCtrl
+            				android:id="@+id/weatherTipsCtrlLayout2"
+            				android:layout_width="wrap_content"
+            				android:layout_height="wrap_content" 
+            				android.clickable = "true"
+            				android:layout_marginRight="5px"
+         
+           				/> 
+           				
+           				<com.yfvesh.tm.weatherrep.WeatherTipsCtrl
+            				android:id="@+id/weatherTipsCtrlLayout3"
+            				android:layout_width="wrap_content"
+            				android:layout_height="wrap_content" 
+            				android.clickable = "true"
+            				android:layout_marginRight="5px"
+            				
+           				/> 
+           				
+           				<com.yfvesh.tm.weatherrep.WeatherTipsCtrl
+            				android:id="@+id/weatherTipsCtrlLayout4"
+            				android:layout_width="wrap_content"
+            				android:layout_height="wrap_content" 
+            				android.clickable = "true"
+           				/> 
+           		</LinearLayout> 
+           			
+ 		</LinearLayout> 
+    
+    	<LinearLayout 
+        		android:layout_width="wrap_content"
+        		android:layout_height="fill_parent"
+        		android:orientation ="vertical"
+        		android:gravity="center">
+           			 <com.yfvesh.tm.weatherrep.WeatherCtrlM 
+            				android:id="@+id/weatherCtrlMLayout1"
+            				android:layout_width="wrap_content"
+            				android:layout_height="wrap_content"
+            				android.clickable = "true"  
+            				android:layout_marginBottom = "15px"      				
+            		/>     
+           
+            
+           	 		<com.yfvesh.tm.weatherrep.WeatherCtrlM
+            				android:id="@+id/weatherCtrlMLayout2"
+            				android:layout_width="wrap_content"
+            				android:layout_height="wrap_content" 
+            				android.clickable = "true"
+
+           			 />  			 
+ 		</LinearLayout>    
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, UserloginActivity!</string>
+    <string name="app_name">用户登录</string>
+    <string name="user_name">用户名</string>
+    <string name="user_password">密码</string>
+    <string name="login">登录</string>
+    <string name="skip">直接进入</string>
+    <string name="progress_login">登录中 ......</string>
+	<string name="btn_login">登录</string>
+	<string name="btn_skip">跳过</string>
+	<string name="btn_logoff">注销</string>
+	<string name="btn_exit">退出</string>
+	<string name="btn_cancel">取消</string>
+	<string name="txt_login_wait">正在登录......</string>
+	<string name="txt_logoff_wait">正在注销......</string>
+	<string name="txt_login_err_network">网络错误.</string>
+	<string name="txt_login_err_usrinfo">无效的用户信息.</string>
+	<string name="txt_login_done">登录成功.</string>
+</resources>

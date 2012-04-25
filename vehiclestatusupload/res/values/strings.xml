@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VehiclestatusuploadActivity!</string>
+    <string name="app_name">Vehiclestatusupload</string>
+    <string name="title">Vehicle status upload</string>
+    <string name="btn_confirm">OK</string>
+    <string name="text_3gnotopen">network service is not open，please open network service in setting</string>
+    <string name="text_uploadsuccess">uplaod success</string>
+    <string name="text_uploadfailed">upload failed</string>
+    <string name="text_networkisunavailable">network service is unavailable，please check your network status</string>
+    <string name="text_networkisavailable">"network service is available"</string>
+    <string name="text_userisnotlogin">uesr is not login,please login first</string>
+</resources>

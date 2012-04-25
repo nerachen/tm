@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, InfoOnDemandActivity!</string>
+    <string name="title">信息点播</string>
+    <string name="app_name">InfoOnDemand</string>
+    <string name="music_dir_path">/sdcard/media</string>    
+    <string name="title_0_0">音乐列表</string>
+    <string name="call_number">tel:10086</string>
+    
+</resources>

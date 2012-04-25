@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/layoutWeatherCtrlM"
+    android:background = "@drawable/weather_ctrl_m_status_day"
+    android:clickable = "true"
+    android:orientation="horizontal" >
+    
+     <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:orientation ="vertical"
+        	android:layout_weight = "2"
+        	android:gravity="center">
+       		<ImageView
+            		android:id="@+id/imgviewWeatherIcon"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:background = "@drawable/overcast_d_s"
+            		android:gravity="center"
+            		
+            />      
+            
+            
+            <TextView
+            		android:id="@+id/txtviewWeatherText"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:gravity="center"
+            		style="@style/Textstyle_2"
+            		android:text = "多云"
+            />      
+            
+ 	</LinearLayout> 
+    
+    <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="fill_parent"
+        	android:orientation ="vertical"
+        	android:gravity="center"
+        	android:layout_weight = "3">
+        	
+        	<TextView
+            		android:id="@+id/txtviewDate1"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:gravity="center"
+            		android:text = "明天"
+            		android:layout_marginTop = "10px"
+            		style="@style/Textstyle_1"
+            />     
+           
+            
+            <TextView
+            		android:id="@+id/txtviewDate2"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android:gravity="center"
+            		android:text = "04/17"
+            		android:layout_marginBottom = "30px"
+            		style="@style/Textstyle_1"
+            		
+            />   
+            
+       		<TextView
+            		android:id="@+id/txtviewLowestTemp"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:gravity="center"
+            		android:text = "16℃"
+            		style="@style/Textstyle_1"
+            />     
+           
+            
+            <TextView
+            		android:id="@+id/txtviewSepaLine"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android:gravity="center"
+            		android:text = "--------"
+            		style="@style/Textstyle_1"
+            />      
+           
+            
+            <TextView
+            		android:id="@+id/txtviewHighestTemp"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android:gravity="center"
+            		android:text = "25℃"
+            		style="@style/Textstyle_1"
+            />      
+    
+ 	</LinearLayout> 
+   
+</LinearLayout>

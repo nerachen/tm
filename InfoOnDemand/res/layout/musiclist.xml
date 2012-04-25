@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/activity_bg"
+    android:orientation="vertical"
+    android:id="@+id/rootview" >
+
+    <LinearLayout
+        	android:id="@+id/linearLayout1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation ="horizontal"
+        	android:background="@drawable/title_row">
+
+	        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button_states"
+            android:layout_gravity="left|center"/>
+
+       		<TextView
+            		android:id="@+id/txtviewtitle"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/title_0_0"
+            		style="@style/AppTitleText"
+            		android:layout_weight ="1"
+            		android:gravity="center"
+            />
+ 	</LinearLayout>
+
+    <ListView
+            android:id="@+id/itemlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:focusableInTouchMode="false"
+      		android:clickable="true"
+           >
+     </ListView>
+
+</LinearLayout>

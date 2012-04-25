@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Speek!</string>
+	<string name="app_name">自动朗读</string>
+	<string name="speech">朗读</string>
+	<string name="record">记录声音</string>
+	<string name="pause">暂停</string>
+	<string name="resume">继续</string>
+	<string name="stop">停止</string>
+	<string name="tts_text">
+羌笛梅花引，吴溪陇水情。寒山秋浦月，肠断玉关声。
+</string>
+</resources>

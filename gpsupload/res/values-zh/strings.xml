@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">你好, GpsuploadActivity!</string>
+    <string name="app_name">GPS上传</string>
+    <string name="btn_confirm">确认</string>
+    <string name="text_gpsnotopen">GPS服务未打开，\n请进入设置画面开GPS服务</string>
+	<string name="text_3gnotopen">网络服务未打开，\n请进入设置画面开网络服务</string>
+	<string name="text_uploadsuccess">上传成功</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VclConditionActivity!</string>
+    <string name="app_name">VclCondition</string>
+    <string name="title">车况信息</string>
+</resources>

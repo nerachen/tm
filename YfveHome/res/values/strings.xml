@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YfveHome</string>
+    <string name="ecall_number">tel:10086</string>
+    <string name="mainmenu_choice_unknown">unknown</string>
+    <string name="mainmenu_choice0">登陆</string>
+    <string name="mainmenu_choice1">企业信息</string>
+    <string name="mainmenu_choice2">ecall</string>
+    <string name="mainmenu_choice3">信息点播</string>
+    <string name="mainmenu_choice4">在线POI</string>
+    <string name="mainmenu_choice5">组队通信</string>
+    <string name="mainmenu_choice6">车辆状态</string>
+    <string name="mainmenu_choice7">天气预报</string>
+    <string name="mainmenu_choice8">车辆信息</string>
+    <string name="mainmenu_choice9">导航</string>
+    <string name="mainmenu_choice11">推送信息</string>
+    <string name="mainmenu_choice10">设置</string>
+</resources>

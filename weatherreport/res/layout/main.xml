@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:id="@+id/layout_main"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    >
+
+ 		<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:id="@+id/layout_title"
+        	android:background="@drawable/message_list_title_row"
+        	android:gravity="center">  
+        	
+        	<Button
+            		android:id="@+id/btnfinish"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginLeft="10px"
+            		android:layout_marginRight="260px"
+            		android:layout_marginBottom="4px"
+            		android:background="@drawable/back_button_status"
+                	android:clickable="true"
+            
+            />
+            
+            <Button
+            		android:id="@+id/btnPreCity"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginRight="20px"
+            		android:layout_marginBottom="4px"
+            		android:background="@drawable/page_left_button_status"
+                	android:clickable="true"
+                	
+                	
+            />
+                
+            <TextView
+            		android:id="@+id/txtviewWeatherText"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:gravity="center"
+            		style="@style/Textstyle_1"
+            		android:text = "上海"
+            		android:textColor = "#ffffffff"
+            		android:layout_marginRight="20px"
+            		android:layout_marginBottom="4px"
+            		
+            		
+            /> 
+             
+            <Button
+            		android:id="@+id/btnNextCity"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginRight="260px"
+            		android:layout_marginBottom="4px"
+            		android:background="@drawable/page_right_button_status"
+                	android:clickable="true"
+                	
+            />
+            
+            <Button
+            		android:id="@+id/btn_city_manage"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:background="@drawable/city_manage_button_status"
+                	android:clickable="true"
+                	android:layout_marginBottom="4px"
+                	
+            />
+            
+
+ 		</LinearLayout> 
+ 		
+  		<com.yfvesh.tm.weatherrep.ScrollLayout
+        			android:id="@+id/ScrollLayout"
+        			android:layout_weight = "1"
+    				android:layout_width="fill_parent"
+    				android:layout_height="fill_parent"
+    				android:gravity="center">
+        </com.yfvesh.tm.weatherrep.ScrollLayout>
+ 	
+
+    
+</LinearLayout>

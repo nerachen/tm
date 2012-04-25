@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:paddingTop="8px"
+	android:paddingBottom="8px"
+	>
+
+<TableLayout android:id="@+id/TableLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:stretchColumns="1"
+>
+<TableRow>
+<ImageView
+android:id="@+id/state_image"
+android:layout_width="40px"
+android:layout_height="40px">
+</ImageView>
+<TextView
+android:id="@+id/con_name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize = "24px"
+android:textColor="@color/list_item_text"
+>
+</TextView>
+</TableRow>
+
+<TableRow>
+<TextView
+android:id="@+id/empty"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+</TextView>
+<TextView
+android:id="@+id/con_detail"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize = "16px"
+android:textColor="@color/list_item_text1"
+>
+</TextView>
+</TableRow>
+</TableLayout>
+
+</LinearLayout>

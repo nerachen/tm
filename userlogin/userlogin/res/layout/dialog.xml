@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="491dp"
+    android:layout_height="178dp"
+    android:gravity="center"
+    android:orientation="vertical" >
+	<LinearLayout 
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight ="1"/>
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_weight ="2"
+        android:gravity="center"
+        >
+        <LinearLayout 
+    		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight ="1"/>
+        <ImageView
+        	android:id="@+id/textloginimg"
+        	android:layout_width="27dp"
+        	android:layout_height="27dp"
+        	android:gravity="center|right"
+        	android:src="@drawable/icon_waiting" 
+        	/>
+        <TextView
+        	android:id="@+id/textlogininfo"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="@string/txt_login_wait"
+        	android:textSize="24sp"
+        	android:gravity="center"
+        	android:layout_marginLeft="40dp"
+        	>
+        </TextView>
+         <LinearLayout 
+    		android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_weight ="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/linerlayoutcancel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_weight ="2"
+        android:orientation="horizontal" >
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/press_button_states"
+            android:text="@string/btn_cancel"
+            style="@style/ShadowButtonText"
+            android:layout_gravity="center">
+        </Button>
+    </LinearLayout>
+    <LinearLayout 
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight ="1"/>
+</LinearLayout>

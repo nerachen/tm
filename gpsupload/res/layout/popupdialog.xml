@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+	<TextView    
+    	android:id="@+id/showString"  
+    	android:layout_width="fill_parent"   
+    	android:layout_height="wrap_content"   
+    	android:text= "@string/text_gpsnotopen" 
+    	android:singleLine="false"
+    	android:paddingLeft="20px"
+    	android:paddingRight="20px"
+    	android:paddingTop="20px"
+    	android:paddingBottom="20px"
+    >  
+    </TextView >
+
+<LinearLayout 
+	android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+  	<Button   
+    	android:id="@+id/confirmbutton"  
+    	android:text="@string/btn_confirm" 
+    	android:layout_width="wrap_content"  
+    	android:layout_height="wrap_content" 
+  	/>    
+</LinearLayout>
+</LinearLayout>

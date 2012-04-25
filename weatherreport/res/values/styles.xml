@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  	
+    <style name="Textstyle_1" parent="@android:style/Widget.TextView">
+    	<item name="android:textSize">20sp</item>
+  	</style>
+  	
+  	<style name="Textstyle_2" parent="@android:style/Widget.TextView">
+    	<item name="android:textSize">24sp</item>
+  	</style>
+  	
+  	<style name="Textstyle_3" parent="@android:style/Widget.TextView">
+    	<item name="android:textSize">30sp</item>
+  	</style>
+  	
+   	<style name="Textstyle_4" parent="@android:style/Widget.TextView">
+    	<item name="android:textSize">36sp</item>
+  	</style>
+  	
+    <style name="Textstyle_5" parent="@android:style/Widget.TextView">
+    	<item name="android:textSize">64sp</item>
+  	</style> 
+  		
+</resources>

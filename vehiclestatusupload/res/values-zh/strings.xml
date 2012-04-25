@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, VehiclestatusuploadActivity!</string>
+    <string name="app_name">车辆工作状态上传</string>
+    <string name="title">车辆工作状态</string>
+    <string name="text_3gnotopen">网络服务未打开，\n请进入设置画面开网络服务</string>
+    <string name="btn_confirm">确认</string>
+    <string name="text_uploadsuccess">上传成功</string>
+    <string name="text_uploadfailed">上传失败</string>
+    <string name="text_networkisunavailable">"无网络连接，请检查网络"</string>
+    <string name="text_networkisavailable">"网络服务已启用"</string>
+    <string name="text_userisnotlogin">用户尚未登录，请先登录</string>
+</resources>

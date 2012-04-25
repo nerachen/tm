@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, GpsuploadActivity!</string>
+    <string name="app_name">Gpsupload</string>
+    <string name="btn_confirm">OK</string>
+    <string name="text_gpsnotopen">GPS service is not open，please open GPS service in setting</string>
+	<string name="text_3gnotopen">network service is not open，please open network service in setting</string>
+	 <string name="text_uploadsuccess">uplaod success</string>
+</resources>

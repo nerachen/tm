@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_weather_city"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@drawable/message_list_title_row"
+        	android:gravity="left|center">  
+        	
+        	<Button
+            		android:id="@+id/btnback"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginLeft="10px"
+            		android:layout_marginRight="300px"
+            		android:layout_marginBottom="4px"
+            		android:background="@drawable/back_button_status"
+                	android:clickable="true"
+            
+            />
+            
+                
+            <TextView
+            		android:id="@+id/txtviewWeatherText"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:gravity="center"
+            		style="@style/Textstyle_1"
+            		android:text = "城市管理"
+            		android:textColor = "#ffffffff"
+            		android:layout_marginRight="20px"
+            		android:layout_marginBottom="4px"
+            		
+            		
+            /> 
+             
+          
+            
+
+ 	</LinearLayout> 
+ 	
+ 	<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:orientation="vertical"
+        	android:layout_weight = "5">
+        	
+        <LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:orientation="horizontal"
+        	android:layout_weight = "1">
+        	
+        	<com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl1"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           <com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl2"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           <com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl3"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           <com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl4"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           <com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl5"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:visibility="invisible"
+           	/> 
+        		
+
+ 		</LinearLayout> 
+ 	
+ 	    <LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center|top"
+        	android:orientation="horizontal"
+        	android:layout_weight = "1">
+        	
+        	<com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl6"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           <com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl7"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           <com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl8"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           	<com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl9"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:layout_marginRight="30px"
+            		android:visibility="invisible"
+           	/> 
+           	
+           	<com.yfvesh.tm.weatherrep.CityCtrl
+            		android:id="@+id/CityCtrl10"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content" 
+            		android.clickable = "true"
+            		android:visibility="invisible"
+           	/> 	
+
+ 		</LinearLayout> 
+       	  
+ 	</LinearLayout> 
+ 	
+ 	<LinearLayout 
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:gravity="center"
+        	android:layout_weight = "1">
+        		
+        	<Button
+            		android:id="@+id/btnDelete"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:background="@drawable/delete_button_status"
+                	android:clickable="true"
+            />
+ 	</LinearLayout> 
+    
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical"
+    android:id="@+id/rootview" >
+    
+
+    
+    <LinearLayout 
+        	android:id="@+id/linearLayout1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation ="horizontal"
+        	android:background="@drawable/message_list_title_row"
+        	>
+        	<Button
+            	android:id="@+id/btnback"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:background="@drawable/back_button_states" 
+            	android:layout_marginLeft="10px"
+            	android:layout_marginBottom="5px"
+            	android:layout_gravity="left|center"/>
+       		<TextView
+            		android:id="@+id/txtviewtitle"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/title"          
+            		style="@style/AppTitleText"
+            		android:layout_marginBottom="5px"
+            		android:gravity="center"
+            		android:layout_weight ="1"
+            />
+ 	</LinearLayout> 
+		
+ 	<LinearLayout 
+        	android:id="@+id/linearLayout2"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation ="horizontal"
+        	android:gravity="center"
+        	android:layout_weight="1">
+        	
+       		<Button
+            		android:id="@+id/btnworking"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginRight="20dp"
+            		android:background="@drawable/working_button_status"
+                	android:clickable="true"
+            />
+            		
+           	<Button
+            		android:id="@+id/btnspare"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginRight="20dp"
+            		android:background="@drawable/spare_button_status"
+                	android:clickable="true"
+            />
+            		
+   			<Button
+            		android:id="@+id/btnmaintain"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:background="@drawable/maintain_button_status"
+                	android:clickable="true"
+            />
+ 	</LinearLayout> 		
+
+</LinearLayout>

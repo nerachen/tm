@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="@color/color_bg"
+    android:id="@+id/rootview" >
+
+    <LinearLayout
+        	android:id="@+id/linearLayout1"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:orientation ="horizontal"
+        	android:background="@drawable/message_list_title_row"
+	>
+
+	        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back_button_states"
+            android:layout_marginLeft="10px"
+            android:layout_marginBottom="5px"
+            android:layout_gravity="left|center"/>
+
+
+       		<TextView
+            		android:id="@+id/txtviewtitle"
+            		android:layout_width="wrap_content"
+            		android:layout_height="fill_parent"
+            		android:text="@string/title"
+            		style="@style/AppTitleText"
+            		android:layout_weight ="1"
+            		android:gravity="center"
+            />
+ 	</LinearLayout>
+
+    <ListView
+            android:id="@+id/itemlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:listSelector="@drawable/msg_item_selector_old"
+            android:selectable="false"
+            >
+     </ListView>
+
+</LinearLayout>

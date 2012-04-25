@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/musicitem"
+    android:orientation ="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:focusable="false"
+	android:clickable="false"
+	android:focusableInTouchMode="false"
+	>
+
+<TableLayout android:id="@+id/TableLayout"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:stretchColumns="1"
+>
+<TableRow>
+<ImageView
+android:id="@+id/state_image"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:layout_weight="5"
+android:focusable="false"
+android:clickable="false"
+android:focusableInTouchMode="false"	
+>
+</ImageView>
+
+<TextView
+android:id="@+id/con_name"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:textColor = "@color/list_item_text"
+android:textSize = "24px"
+android:layout_weight="1"
+android:focusable="false"
+android:clickable="false"
+android:focusableInTouchMode="false"
+>
+</TextView>
+
+<Button
+android:id="@+id/del_item"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:background="@drawable/info_order_delete_1"
+android:layout_weight="5"
+android:clickable="true"
+android:focusable="false"
+android:focusableInTouchMode="false"
+/>
+</TableRow>
+</TableLayout>
+
+</LinearLayout>
